@@ -1,3 +1,35 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
+-- return {
+--   {
+--     "stevearc/conform.nvim",
+--     dependencies = { "mason.nvim" },
+--     lazy = true,
+--     opts = function(_, opts)
+--       table.insert(opts, {
+--         ignore_errors = false,
+--         lang_to_ext = {
+--           bash = "sh",
+--           c_sharp = "cs",
+--           elixir = "exs",
+--           javascript = "js",
+--           julia = "jl",
+--           latex = "tex",
+--           markdown = "md",
+--           python = "py",
+--           ruby = "rb",
+--           rust = "rs",
+--           teal = "tl",
+--           typescript = "ts",
+--         },
+--         formatters_by_ft = {
+--           lua = { "stylua" },
+--           fish = { "fish_indent" },
+--           sh = { "shfmt" },
+--           sql = { "sql-formatter" },
+--         },
+--       })
+--     end,
+--   },
+-- }
